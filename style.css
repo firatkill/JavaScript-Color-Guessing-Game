@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: Black;
+}
+.header {
+  background-color: rgb(76, 140, 151);
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.header h2 {
+  font-size: 1.5rem;
+}
+.choice {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+button {
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+}
+#newColors {
+  width: 50%;
+}
+#levels {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#levels button {
+  width: 50%;
+}
+button:hover {
+  background-color: rgb(76, 140, 151);
+  cursor: pointer;
+  border: none;
+}
+.container {
+  color: white;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.col {
+  background-color: red;
+  margin: 1rem;
+  text-align: center;
+  font-size: 6rem;
+  border-radius: 15px;
+  color: red;
+}
+.col:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 5px white;
+}
+#score {
+  font-size: 3rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 15px;
+}
