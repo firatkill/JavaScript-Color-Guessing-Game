@@ -59,12 +59,10 @@ button:hover {
   font-size: 6rem;
   border-radius: 15px;
   color: red;
-  text
 }
 .col:hover {
   cursor: pointer;
   box-shadow: 1px 1px 10px 5px white;
-  
 }
 
 #score {
@@ -75,4 +73,3 @@ button:hover {
   padding: 2rem;
   border-radius: 15px;
 }
-
